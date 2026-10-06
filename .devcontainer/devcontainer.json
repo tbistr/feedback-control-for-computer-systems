@@ -1,0 +1,16 @@
+{
+	"name": "Debian",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	// "postCreateCommand": "uv sync",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cpptools-extension-pack",
+				"ms-python.python",
+				"charliermarsh.ruff"
+			]
+		}
+	}
+}
